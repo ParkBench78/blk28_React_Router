@@ -5,8 +5,6 @@ import Blue from "./components/Blue.jsx";
 import Red from "./components/Red.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div id="container">
       <div id="navbar">
