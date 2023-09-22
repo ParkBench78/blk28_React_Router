@@ -1,49 +1,140 @@
-* {
-  font-family: arial, sans-serif;
+*,
+*::before,
+*::after {
   margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  color: black;
+  cursor: pointer;
+}
+#root {
+  background-color: black;
+  border: 10px solid black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-body,
-body > div {
-  height: 100vh;
-  width: 100vw;
-}
-
-#container {
-  height: 100%;
+footer {
   display: flex;
-  flex-direction: column;
-}
-
-#container > div {
-  display: flex;
-}
-
-#navbar {
-  padding: 2em;
   justify-content: space-evenly;
+  background-color: rgb(3, 23, 39);
+  box-sizing: border-box;
+  position: fixed;
+  height: 64px;
+  padding: 16px;
+  bottom: 0px;
+  right: 0;
+  left: 0;
 }
 
-#main-section {
-  flex-grow: 1;
-}
-
-#main-section > div {
-  width: 100%;
-  display: flex;
+#main-section > div,
+h1 {
+  position: fixed;
   align-items: center;
   justify-content: center;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  bottom: 114px;
+  top: 50px;
+  right: 50px;
+  left: 50px;
+}
+
+.home {
+  color: rgb(70, 67, 67);
+  background-color: gray;
+  border: solid 20px rgb(70, 67, 67);
+  box-shadow: 0 -2px 4px -2px black;
 }
 
 .red {
-  background-color: #b05f6d;
-  color: white;
+  color: rgb(159, 12, 12);
+  background-color: red;
+  border: solid 20px rgb(159, 12, 12);
+  box-shadow: 0 -2px 4px -2px black;
 }
 
-.blue {
-  background-color: #275db3;
-  color: white;
+.orange {
+  color: rgb(182, 122, 12);
+  background-color: orange;
+  border: solid 20px rgb(182, 122, 12);
+  box-shadow: 0 -2px 4px -2px black;
 }
-.home {
-  background-color: gray;
+
+.yellow {
+  color: rgb(166, 166, 3);
+  background-color: yellow;
+  border: solid 20px rgb(166, 166, 3);
+  box-shadow: 0 -2px 4px -2px black;
+}
+
+.green {
+  color: rgb(1, 66, 1);
+  background-color: green;
+  border: solid 20px rgb(1, 66, 1);
+  box-shadow: 0 -2px 4px -2px black;
+}
+.blue {
+  color: rgb(3, 3, 149);
+  background-color: blue;
+  border: solid 20px rgb(3, 3, 149);
+  box-shadow: 0 -2px 4px -2px black;
+}
+
+.indigo {
+  color: rgb(38, 1, 64);
+  background-color: indigo;
+  border: solid 20px rgb(38, 1, 64);
+  box-shadow: 0 -2px 4px -2px black;
+}
+
+.violet {
+  color: rgb(177, 49, 177);
+  background-color: violet;
+  border: solid 20px rgb(177, 49, 177);
+  box-shadow: 0 -2px 4px -2px black;
+}
+
+.home-link {
+  font-size: xx-large;
+  color: gray;
+}
+.red-link {
+  font-size: xx-large;
+  color: red;
+}
+
+.orange-link {
+  font-size: xx-large;
+  color: orange;
+}
+
+.yellow-link {
+  font-size: xx-large;
+  color: yellow;
+}
+
+.green-link {
+  font-size: xx-large;
+  color: green;
+}
+
+.blue-link {
+  font-size: xx-large;
+  color: blue;
+}
+
+.indigo-link {
+  font-size: xx-large;
+  color: indigo;
+}
+
+.violet-link {
+  font-size: xx-large;
+  color: violet;
 }
